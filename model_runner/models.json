@@ -1,0 +1,23 @@
+{
+  "api": {
+    "type": "chat_completions",
+    "base_url": "https://generativelanguage.googleapis.com/v1beta/openai",
+    "api_key_env": "GEMINI_API_KEY"
+  },
+  "max_tokens": 32768,
+  "timeout_seconds": 720,
+  "models": [
+    {
+      "id": "gemini-3.1-flash-lite",
+      "reasoning": {"effort": "high"}
+    },
+    {
+      "id": "gemini-3-flash-preview",
+      "reasoning": {"effort": "high"}
+    },
+    {
+      "id": "gemini-3.8-flash",
+      "reasoning": {"effort": "high"}
+    }
+  ]
+}
